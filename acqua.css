@@ -1,0 +1,460 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.fixed_container {
+   max-width: 1298px;
+   margin: 0 auto;
+}
+
+body {
+   background-color: #0a3142;
+   font-family: 'Proxima Nova';
+   color: white;
+}
+
+.menu_wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav-logo {
+   margin-right: 75px;
+}
+
+.menu:last-child {
+   margin-right: 80px;
+}
+
+ul {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+li {
+   margin-right: 50px;
+   list-style-type: none;
+}
+
+a {
+   font-size: 14px;
+   color: white;
+   text-decoration: none;
+}
+
+.main_menu a:hover {
+   border-bottom: 3px solid #018ABE;
+   padding-bottom: 5px;
+}
+
+
+button {
+   font-size: 13px;
+   text-align: center;
+   color: white;
+   font-style: normal;
+   padding: 4px 7px;
+   width: 150px;
+   height: 32px;
+   background-color: #018ABE;
+   border: none;
+
+}
+
+
+/*part 2*/
+
+.main_image {
+   display: flex;
+   margin-top: 50px;
+   justify-content: center;
+}
+
+.main_image p {
+   text-align: center;
+   font-family: 'El Messiri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 140%;
+   top: 33%;
+   left: 45%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+
+}
+
+.main_image .top2 {
+   margin-top: 120px;
+   font-size: 64px;
+}
+
+.dot {
+   display: inline-flex;
+   align-items: center;
+   text-decoration: none;
+}
+
+.dot-dot::before {
+   content: "";
+   display: inline-block;
+   margin-right: 66px;
+   width: 28px;
+   height: 14px;
+   background-image: url("dot-left.svg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.dot-dot::after {
+   content: "";
+   display: inline-block;
+   margin-left: 66px;
+   width: 28px;
+   height: 14px;
+   background-image: url("dot-right.png");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+/*part 3*/
+
+
+.header_main p {
+
+   margin-top: 150px;
+   font-family: 'El Messiri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 42px;
+   line-height: 140%;
+
+}
+
+.dot2 {
+   display: inline-flex;
+   align-items: center;
+   margin-left: 360px;
+}
+
+.dot-dot2::before {
+   content: "";
+   margin-right: 66px;
+   width: 28px;
+   height: 14px;
+   background-image: url("left2.png");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+
+.dot-dot2::after {
+   content: "";
+   margin-left: 66px;
+   width: 28px;
+   height: 14px;
+   background-image: url("right2.png");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.wrapper {
+   margin-top: 100px;
+   display: grid;
+   grid-gap: 12px;
+   grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+.box1 {
+   grid-row: 1/4;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+   position: relative;
+}
+
+.wrapper p {
+   position: absolute;
+   font-family: 'El Messiri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 140%;
+}
+
+.box1 p {
+   bottom: 43px;
+   left: 50px;
+
+}
+
+.box2 p {
+   bottom: 30px;
+   left: 40px;
+
+}
+
+.box3 p {
+   bottom: 43px;
+   left: 50px;
+
+}
+
+.box4 p {
+   bottom: 43px;
+   left: 50px;
+
+}
+
+.box5 p {
+   bottom: 43px;
+   left: 50px;
+
+}
+
+
+/*part 4*/
+
+.container h1 {
+   margin: 100px 450px;
+   font-family: 'El Messiri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 42px;
+   line-height: 140%;
+}
+
+.slide {
+   width: 450px;
+   height: 200px;
+   background: #018ABE;
+   border-radius: 10px;
+   padding: 40px 30px 25px 30px;
+   margin-top: 15px;
+}
+
+
+.slide h3 {
+   font-family: 'El Messiri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 140%;
+}
+
+.slide p {
+   margin-top: 20px;
+   font-family: 'Proxima Nova';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 12px;
+}
+
+
+.square {
+   width: 16px;
+   height: 16px;
+   background-color: grey;
+   display: inline-block;
+
+}
+
+.square:hover {
+   background-color: white;
+}
+
+
+/*part5*/
+
+.container2,
+.container3,
+.container4 {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+
+}
+
+.container2 h1 {
+   margin: 150px 400px;
+   font-family: 'El Messiri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 42px;
+   line-height: 140%;
+
+}
+
+.text {
+   width: 450px;
+   height: auto;
+   margin-right: 84px;
+   font-family: 'Proxima Nova';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 140%;
+}
+
+#text1 {
+   margin-left: 80px;
+   margin-top: 100px;
+}
+
+.img2 img {
+   width: 526px;
+   height: 380px;
+
+}
+
+#position {
+   margin-top: 100px;
+}
+
+/* part 6*/
+
+
+.container3 h1 {
+   margin: 150px 400px;
+   font-family: 'El Messiri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 42px;
+   line-height: 140%;
+}
+
+.list {
+   display: flex;
+}
+
+.col1,
+.col2 {
+   display: inline;
+}
+
+.col1 li {
+   list-style-image: url('little.svg');
+   padding-left: 20px;
+}
+
+.list li {
+   margin-top: 31px;
+   font-family: 'Proxima Nova';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 140%;
+}
+
+.thanks {
+   margin-left: 134px;
+}
+
+.size img {
+   width: 526px;
+   height: 396px;
+}
+
+.thanks p {
+   margin-top: 30px;
+   text-align: center;
+   font-family: 'El Messiri';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 21px;
+   line-height: 140%;
+}
+
+/*part7*/
+
+.container4 {
+   margin-top: 150px;
+   display: flex;
+
+}
+
+.address1,
+.address2 {
+   background: #018ABE;
+   border-radius: 10px;
+   width: 382px;
+   height: 280px;
+   margin-left: 48px;
+}
+
+.address1 .size {
+   font-size: 24px;
+}
+
+.address2 .size {
+   font-size: 24px;
+}
+
+.container4 li {
+   margin-left: 60px;
+   margin-top: 21px;
+}
+
+.container4 p {
+   padding-top: 35px;
+   margin-left: 45px;
+}
+
+.container4 ul {
+   display: inline;
+}
+
+.container4 .location {
+
+   list-style-image: url('location.svg');
+   padding-left: 20px;
+}
+
+.container4 .calendar {
+
+   list-style-image: url('calendar.svg');
+   padding-left: 20px;
+}
+
+.container4 .metro {
+
+   list-style-image: url('metro.svg');
+   padding-left: 20px;
+}
+
+
+.container4 button {
+   margin-left: 35px;
+   margin-top: 30px;
+   width: 160px;
+   height: 36px;
+   background: white;
+   color: #018ABE;
+   padding: 9px 15px;
+}
+
+
+footer {
+   font-family: 'Proxima Nova';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 135%;
+   margin-left: 312px;
+}
